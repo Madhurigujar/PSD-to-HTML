@@ -1,0 +1,172 @@
+
+/* ---Top Header--- */
+.top-header{
+	
+	margin-top: 5px;
+	padding-top: 5px;
+	color: white;
+}
+.top-nav{
+	text-align: right;
+	list-style: none;
+}
+.top-nav li{
+	display: inline;
+	padding: 0px 10px;
+	
+}
+.top-nav li:not(:first-child):before{
+	content: '|';
+	padding: 0px 10px; 
+}
+
+/*-- Menu bar ---*/
+
+.menubar li{
+	display: inline;
+	padding: 0px 10px;
+}
+.menubar{
+border-bottom: 1px solid #fec51c;
+margin-top: 20px;
+}
+
+/* --- Learn More --*/
+.learn-more{
+	color:white; 
+	border: 2px solid white; 
+	padding: 10px 25px; 
+	text-decoration:none; 
+	text-transform: uppercase;
+	border-radius: 30px;
+}
+
+.learn-more:hover{
+	background-color: #05223d;
+	text-decoration:none; 
+	color: white;
+	
+}
+
+.icon-bar{
+	background-color: white;
+}
+
+.container-fluid{
+	background-color: #01304c;
+}
+
+.navbar-right a {
+	color: #ffffff;
+	
+}
+
+.navbar-header a{
+	color: #ffffff;
+}
+
+a.btn{
+	width: 100px;
+	padding: 5px;
+	border-radius: 30px;
+}
+
+a.btn-first{
+	background-color: darkorange;
+	color: #fff;
+}
+
+a.btn-second{
+	background-color: darkorange;
+	color: #fff;
+}
+
+.my-container{
+	margin-top:50px;
+	background-color: #01304c;
+}
+
+.logo{
+	margin-right: 100px;
+}
+.second_section{
+	background-color: #01304c;
+}
+.row p{
+	color: white;
+}
+.row1 {
+	margin-top: 50px;
+}
+.DWE{
+	padding-bottom: 40px;
+}
+/*--Currency--*/
+
+#currency{
+	width: 100%;
+	/*min-height: 600px;*/
+	background-color: #002343;
+	margin-top: 0px;
+}
+
+.currency_text{
+	color: #fec51c;
+	padding-left: 80px;
+}
+
+.currency_text1{
+	padding-left: 80px;
+	color: #fff;
+}
+
+#txt1{
+	padding:10px; 
+	background-color:#05223d; 
+	color:#fec51c; 
+	font-size: 20px;
+}
+#txt2{
+	padding:10px; 
+	margin-left:25px; 
+	background-color:#05223d; 
+	color:#fec51c; 
+	font-size: 20px;
+}
+/*--get-started */
+
+.get-started{
+
+	color:white; 
+	border: 2px solid white; 
+	padding: 10px 25px; 
+	text-decoration:none; 
+	text-transform: uppercase;
+	border-radius: 30px;
+}
+
+.get-started:hover{
+	background-color: #05223d;
+	text-decoration:none; 
+	color: white;
+	
+}	
+
+
+/*---- Footer--- */
+.site-footer{
+	
+	color: #fff;
+	margin-top: 30px;
+	padding-top: 20px;
+}
+
+.footer-logo i{
+	font-size: 20px;
+	height: 40px;
+	width: 40px;
+	background-color: #2f5e89;
+	padding: 13px;
+	border-radius:50%;
+	color: #7aa3c8;
+}
